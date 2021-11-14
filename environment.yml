@@ -1,4 +1,4 @@
-name: tf2
+name: tf26
 channels:
   - conda-forge
   - defaults
@@ -9,7 +9,7 @@ dependencies:
   - ipython=7.28  # a powerful Python shell
   - ipywidgets=7.6  # optionally used only in chapter 12 for tqdm in Jupyter
   - joblib=0.14  # used only in chapter 2 to save/load Scikit-Learn models
-  - jupyter=1.0  # to edit and run Jupyter notebooks
+  - jupyterlab  # to edit and run Jupyter notebooks
   - matplotlib=3.4  # beautiful plots. See tutorial tools_matplotlib.ipynb
   - nbdime=3.1  # optional tool to diff Jupyter notebooks
   - nltk=3.6  # optionally used in chapter 3, exercise 4
